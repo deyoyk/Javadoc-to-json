@@ -1,0 +1,2944 @@
+{
+  "source_url": "https://javadocs.packetevents.com/javadocs/",
+  "total_classes": 29,
+  "total_methods": 215,
+  "classes": [
+    {
+      "name": "Quaternion4f",
+      "package_name": "com.github.retrooper.packetevents.util",
+      "description": "Class from com.github.retrooper.packetevents.util",
+      "methods": [
+        {
+          "name": "Quaternion4f",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "float",
+              "description": null
+            },
+            {
+              "name": "y",
+              "type": "float",
+              "description": null
+            },
+            {
+              "name": "z",
+              "type": "float",
+              "description": null
+            },
+            {
+              "name": "w",
+              "type": "float",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Quaternion4f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Quaternion4f.html"
+        },
+        {
+          "name": "getX",
+          "return_type": "float",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Quaternion4f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Quaternion4f.html"
+        },
+        {
+          "name": "setX",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "float",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Quaternion4f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Quaternion4f.html"
+        },
+        {
+          "name": "getY",
+          "return_type": "float",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Quaternion4f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Quaternion4f.html"
+        },
+        {
+          "name": "setY",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "y",
+              "type": "float",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Quaternion4f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Quaternion4f.html"
+        },
+        {
+          "name": "getZ",
+          "return_type": "float",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Quaternion4f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Quaternion4f.html"
+        },
+        {
+          "name": "setZ",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "z",
+              "type": "float",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Quaternion4f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Quaternion4f.html"
+        },
+        {
+          "name": "getW",
+          "return_type": "float",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Quaternion4f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Quaternion4f.html"
+        },
+        {
+          "name": "setW",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "w",
+              "type": "float",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Quaternion4f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Quaternion4f.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Quaternion4f.html",
+      "type": "class"
+    },
+    {
+      "name": "ColorUtil",
+      "package_name": "com.github.retrooper.packetevents.util",
+      "description": "Class from com.github.retrooper.packetevents.util",
+      "methods": [
+        {
+          "name": "ColorUtil",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ColorUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/ColorUtil.html"
+        },
+        {
+          "name": "toString",
+          "return_type": "String",
+          "parameters": [
+            {
+              "name": "color",
+              "type": "net.kyori.adventure.text.format.NamedTextColor",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ColorUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/ColorUtil.html"
+        },
+        {
+          "name": "getId",
+          "return_type": "int",
+          "parameters": [
+            {
+              "name": "color",
+              "type": "net.kyori.adventure.text.format.NamedTextColor",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ColorUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/ColorUtil.html"
+        },
+        {
+          "name": "fromId",
+          "return_type": "net.kyori.adventure.text.format.NamedTextColor",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "int",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ColorUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/ColorUtil.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/ColorUtil.html",
+      "type": "class"
+    },
+    {
+      "name": "Vector3f",
+      "package_name": "com.github.retrooper.packetevents.util",
+      "description": "Class from com.github.retrooper.packetevents.util",
+      "methods": [
+        {
+          "name": "x",
+          "return_type": "float",
+          "parameters": [],
+          "description": "X (coordinate/angle/whatever you wish)",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3f.html"
+        },
+        {
+          "name": "y",
+          "return_type": "float",
+          "parameters": [],
+          "description": "Y (coordinate/angle/whatever you wish)",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3f.html"
+        },
+        {
+          "name": "z",
+          "return_type": "float",
+          "parameters": [],
+          "description": "Z (coordinate/angle/whatever you wish)",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3f.html"
+        },
+        {
+          "name": "Vector3f",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "float[]",
+              "description": null
+            }
+          ],
+          "description": "Constructor allowing you to specify an array.\n X will be set to the first index of an array(if it exists, otherwise 0).\n Y will be set to the second index of an array(if it exists, otherwise 0).\n Z will be set to the third index of an array(if it exists, otherwise 0).",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3f.html"
+        },
+        {
+          "name": "getX",
+          "return_type": "float",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3f.html"
+        },
+        {
+          "name": "getY",
+          "return_type": "float",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3f.html"
+        },
+        {
+          "name": "getZ",
+          "return_type": "float",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3f.html"
+        },
+        {
+          "name": "equals",
+          "return_type": "boolean",
+          "parameters": [],
+          "description": "Is the object we are comparing to equal to us?\n It must be of type Vector3d or Vector3i and all values must be equal to the values in this class.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3f.html"
+        },
+        {
+          "name": "hashCode",
+          "return_type": "int",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3f.html"
+        },
+        {
+          "name": "add",
+          "return_type": "Vector3f",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3f.html"
+        },
+        {
+          "name": "offset",
+          "return_type": "Vector3f",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3f.html"
+        },
+        {
+          "name": "subtract",
+          "return_type": "Vector3f",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3f.html"
+        },
+        {
+          "name": "multiply",
+          "return_type": "Vector3f",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "float",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3f.html"
+        },
+        {
+          "name": "crossProduct",
+          "return_type": "Vector3f",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3f.html"
+        },
+        {
+          "name": "dot",
+          "return_type": "float",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3f.html"
+        },
+        {
+          "name": "with",
+          "return_type": "Vector3f",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3f.html"
+        },
+        {
+          "name": "withX",
+          "return_type": "Vector3f",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "float",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3f.html"
+        },
+        {
+          "name": "withY",
+          "return_type": "Vector3f",
+          "parameters": [
+            {
+              "name": "y",
+              "type": "float",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3f.html"
+        },
+        {
+          "name": "withZ",
+          "return_type": "Vector3f",
+          "parameters": [
+            {
+              "name": "z",
+              "type": "float",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3f.html"
+        },
+        {
+          "name": "toString",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3f.html"
+        },
+        {
+          "name": "zero",
+          "return_type": "Vector3f",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3f",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3f.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3f.html",
+      "type": "class"
+    },
+    {
+      "name": "LogManager",
+      "package_name": "com.github.retrooper.packetevents.util",
+      "description": "Class from com.github.retrooper.packetevents.util",
+      "methods": [
+        {
+          "name": "LogManager",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "LogManager",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/LogManager.html"
+        },
+        {
+          "name": "log",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "color",
+              "type": "@Nullable @Nullable net.kyori.adventure.text.format.NamedTextColor",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "LogManager",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/LogManager.html"
+        },
+        {
+          "name": "info",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "LogManager",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/LogManager.html"
+        },
+        {
+          "name": "warn",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "LogManager",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/LogManager.html"
+        },
+        {
+          "name": "severe",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "LogManager",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/LogManager.html"
+        },
+        {
+          "name": "debug",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "LogManager",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/LogManager.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/LogManager.html",
+      "type": "class"
+    },
+    {
+      "name": "TimeStampMode",
+      "package_name": "com.github.retrooper.packetevents.util",
+      "description": "Class from com.github.retrooper.packetevents.util",
+      "methods": [
+        {
+          "name": "MILLIS",
+          "return_type": "TimeStampMode",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "TimeStampMode",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/TimeStampMode.html"
+        },
+        {
+          "name": "NANO",
+          "return_type": "TimeStampMode",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "TimeStampMode",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/TimeStampMode.html"
+        },
+        {
+          "name": "NONE",
+          "return_type": "TimeStampMode",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "TimeStampMode",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/TimeStampMode.html"
+        },
+        {
+          "name": "values",
+          "return_type": "TimeStampMode[]",
+          "parameters": [],
+          "description": "Returns an array containing the constants of this enum class, in\nthe order they are declared.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "TimeStampMode",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/TimeStampMode.html"
+        },
+        {
+          "name": "valueOf",
+          "return_type": "TimeStampMode",
+          "parameters": [],
+          "description": "Returns the enum constant of this class with the specified name.\nThe string must matchexactlyan identifier used to declare an\nenum constant in this class.  (Extraneous whitespace characters are \nnot permitted.)",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "TimeStampMode",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/TimeStampMode.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/TimeStampMode.html",
+      "type": "class"
+    },
+    {
+      "name": "MathUtil",
+      "package_name": "com.github.retrooper.packetevents.util",
+      "description": "Class from com.github.retrooper.packetevents.util",
+      "methods": [
+        {
+          "name": "MathUtil",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "MathUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/MathUtil.html"
+        },
+        {
+          "name": "floor",
+          "return_type": "int",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "float",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "MathUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/MathUtil.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/MathUtil.html",
+      "type": "class"
+    },
+    {
+      "name": "ExceptionUtil",
+      "package_name": "com.github.retrooper.packetevents.util",
+      "description": "Class from com.github.retrooper.packetevents.util",
+      "methods": [
+        {
+          "name": "ExceptionUtil",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ExceptionUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/ExceptionUtil.html"
+        },
+        {
+          "name": "isException",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "clazz",
+              "type": "Class<?>",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ExceptionUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/ExceptionUtil.html"
+        },
+        {
+          "name": "isExceptionContainedIn",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "exceptions",
+              "type": "Set<Class<? extendsThrowable>>",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ExceptionUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/ExceptionUtil.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/ExceptionUtil.html",
+      "type": "class"
+    },
+    {
+      "name": "UUIDUtil",
+      "package_name": "com.github.retrooper.packetevents.util",
+      "description": "Class from com.github.retrooper.packetevents.util",
+      "methods": [
+        {
+          "name": "UUIDUtil",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "UUIDUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/UUIDUtil.html"
+        },
+        {
+          "name": "fromStringWithoutDashes",
+          "return_type": "UUID",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "UUIDUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/UUIDUtil.html"
+        },
+        {
+          "name": "fromString",
+          "return_type": "UUID",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "UUIDUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/UUIDUtil.html"
+        },
+        {
+          "name": "toString",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "UUIDUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/UUIDUtil.html"
+        },
+        {
+          "name": "toStringWithoutDashes",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "UUIDUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/UUIDUtil.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/UUIDUtil.html",
+      "type": "class"
+    },
+    {
+      "name": "KnownPack",
+      "package_name": "com.github.retrooper.packetevents.util",
+      "description": "Class from com.github.retrooper.packetevents.util",
+      "methods": [
+        {
+          "name": "KnownPack",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "KnownPack",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/KnownPack.html"
+        },
+        {
+          "name": "getNamespace",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "KnownPack",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/KnownPack.html"
+        },
+        {
+          "name": "getId",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "KnownPack",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/KnownPack.html"
+        },
+        {
+          "name": "getVersion",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "KnownPack",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/KnownPack.html"
+        },
+        {
+          "name": "equals",
+          "return_type": "boolean",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "KnownPack",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/KnownPack.html"
+        },
+        {
+          "name": "hashCode",
+          "return_type": "int",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "KnownPack",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/KnownPack.html"
+        },
+        {
+          "name": "toString",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "KnownPack",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/KnownPack.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/KnownPack.html",
+      "type": "class"
+    },
+    {
+      "name": "FakeChannelUtil",
+      "package_name": "com.github.retrooper.packetevents.util",
+      "description": "Class from com.github.retrooper.packetevents.util",
+      "methods": [
+        {
+          "name": "FakeChannelUtil",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "FakeChannelUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/FakeChannelUtil.html"
+        },
+        {
+          "name": "isFakeChannel",
+          "return_type": "boolean",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "FakeChannelUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/FakeChannelUtil.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/FakeChannelUtil.html",
+      "type": "class"
+    },
+    {
+      "name": "StringUtil",
+      "package_name": "com.github.retrooper.packetevents.util",
+      "description": "Class from com.github.retrooper.packetevents.util",
+      "methods": [
+        {
+          "name": "StringUtil",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "StringUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/StringUtil.html"
+        },
+        {
+          "name": "maximizeLength",
+          "return_type": "String",
+          "parameters": [
+            {
+              "name": "maxLength",
+              "type": "int",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "StringUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/StringUtil.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/StringUtil.html",
+      "type": "class"
+    },
+    {
+      "name": "MojangAPIUtil",
+      "package_name": "com.github.retrooper.packetevents.util",
+      "description": "Class from com.github.retrooper.packetevents.util",
+      "methods": [
+        {
+          "name": "MojangAPIUtil",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "MojangAPIUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/MojangAPIUtil.html"
+        },
+        {
+          "name": "requestPlayerTextureProperties",
+          "return_type": "List<TextureProperty>",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "MojangAPIUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/MojangAPIUtil.html"
+        },
+        {
+          "name": "requestPlayerName",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "MojangAPIUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/MojangAPIUtil.html"
+        },
+        {
+          "name": "requestPlayerUUID",
+          "return_type": "UUID",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "MojangAPIUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/MojangAPIUtil.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/MojangAPIUtil.html",
+      "type": "class"
+    },
+    {
+      "name": "Vector3d",
+      "package_name": "com.github.retrooper.packetevents.util",
+      "description": "Class from com.github.retrooper.packetevents.util",
+      "methods": [
+        {
+          "name": "x",
+          "return_type": "double",
+          "parameters": [],
+          "description": "X (coordinate/angle/whatever you wish)",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "y",
+          "return_type": "double",
+          "parameters": [],
+          "description": "Y (coordinate/angle/whatever you wish)",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "z",
+          "return_type": "double",
+          "parameters": [],
+          "description": "Z (coordinate/angle/whatever you wish)",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "Vector3d",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "double[]",
+              "description": null
+            }
+          ],
+          "description": "Constructor allowing you to specify an array.\n X will be set to the first index of an array(if it exists, otherwise 0).\n Y will be set to the second index of an array(if it exists, otherwise 0).\n Z will be set to the third index of an array(if it exists, otherwise 0).",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "getX",
+          "return_type": "double",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "getY",
+          "return_type": "double",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "getZ",
+          "return_type": "double",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "equals",
+          "return_type": "boolean",
+          "parameters": [],
+          "description": "Is the object we are comparing to equal to us?\n It must be of type Vector3d or Vector3i and all values must be equal to the values in this class.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "hashCode",
+          "return_type": "int",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "add",
+          "return_type": "Vector3d",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "offset",
+          "return_type": "Vector3d",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "subtract",
+          "return_type": "Vector3d",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "multiply",
+          "return_type": "Vector3d",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "double",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "crossProduct",
+          "return_type": "Vector3d",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "dot",
+          "return_type": "double",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "with",
+          "return_type": "Vector3d",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "withX",
+          "return_type": "Vector3d",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "double",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "withY",
+          "return_type": "Vector3d",
+          "parameters": [
+            {
+              "name": "y",
+              "type": "double",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "withZ",
+          "return_type": "Vector3d",
+          "parameters": [
+            {
+              "name": "z",
+              "type": "double",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "distance",
+          "return_type": "double",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "length",
+          "return_type": "double",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "lengthSquared",
+          "return_type": "double",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "normalize",
+          "return_type": "Vector3d",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "distanceSquared",
+          "return_type": "double",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "toVector3i",
+          "return_type": "Vector3i",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "toString",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        },
+        {
+          "name": "zero",
+          "return_type": "Vector3d",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3d",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3d.html",
+      "type": "class"
+    },
+    {
+      "name": "EventCreationUtil",
+      "package_name": "com.github.retrooper.packetevents.util",
+      "description": "Class from com.github.retrooper.packetevents.util",
+      "methods": [
+        {
+          "name": "EventCreationUtil",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "EventCreationUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/EventCreationUtil.html"
+        },
+        {
+          "name": "createReceiveEvent",
+          "return_type": "PacketReceiveEvent",
+          "parameters": [
+            {
+              "name": "autoProtocolTranslation",
+              "type": "boolean",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "EventCreationUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/EventCreationUtil.html"
+        },
+        {
+          "name": "createSendEvent",
+          "return_type": "PacketSendEvent",
+          "parameters": [
+            {
+              "name": "autoProtocolTranslation",
+              "type": "boolean",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "EventCreationUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/EventCreationUtil.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/EventCreationUtil.html",
+      "type": "class"
+    },
+    {
+      "name": "Dummy",
+      "package_name": "com.github.retrooper.packetevents.util",
+      "description": "Class from com.github.retrooper.packetevents.util",
+      "methods": [
+        {
+          "name": "DUMMY",
+          "return_type": "Dummy",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Dummy",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Dummy.html"
+        },
+        {
+          "name": "dummyRead",
+          "return_type": "Dummy",
+          "parameters": [
+            {
+              "name": "wrapper",
+              "type": "PacketWrapper<?>",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Dummy",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Dummy.html"
+        },
+        {
+          "name": "dummyReadNbt",
+          "return_type": "Dummy",
+          "parameters": [
+            {
+              "name": "wrapper",
+              "type": "PacketWrapper<?>",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Dummy",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Dummy.html"
+        },
+        {
+          "name": "dummyWrite",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "wrapper",
+              "type": "PacketWrapper<?>",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Dummy",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Dummy.html"
+        },
+        {
+          "name": "dummyWriteNbt",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "wrapper",
+              "type": "PacketWrapper<?>",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Dummy",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Dummy.html"
+        },
+        {
+          "name": "dummy",
+          "return_type": "Dummy",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Dummy",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Dummy.html"
+        },
+        {
+          "name": "toString",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Dummy",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Dummy.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Dummy.html",
+      "type": "class"
+    },
+    {
+      "name": "VersionMapper",
+      "package_name": "com.github.retrooper.packetevents.util",
+      "description": "Class from com.github.retrooper.packetevents.util",
+      "methods": [
+        {
+          "name": "VersionMapper",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "versions",
+              "type": "ClientVersion...",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionMapper",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/VersionMapper.html"
+        },
+        {
+          "name": "getVersions",
+          "return_type": "ClientVersion[]",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionMapper",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/VersionMapper.html"
+        },
+        {
+          "name": "getReversedVersions",
+          "return_type": "ClientVersion[]",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionMapper",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/VersionMapper.html"
+        },
+        {
+          "name": "getIndex",
+          "return_type": "int",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionMapper",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/VersionMapper.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/VersionMapper.html",
+      "type": "class"
+    },
+    {
+      "name": "Vector3i",
+      "package_name": "com.github.retrooper.packetevents.util",
+      "description": "Class from com.github.retrooper.packetevents.util",
+      "methods": [
+        {
+          "name": "x",
+          "return_type": "int",
+          "parameters": [],
+          "description": "X (coordinate/angle/whatever you wish)",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3i",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3i.html"
+        },
+        {
+          "name": "y",
+          "return_type": "int",
+          "parameters": [],
+          "description": "Y (coordinate/angle/whatever you wish)",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3i",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3i.html"
+        },
+        {
+          "name": "z",
+          "return_type": "int",
+          "parameters": [],
+          "description": "Z (coordinate/angle/whatever you wish)",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3i",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3i.html"
+        },
+        {
+          "name": "Vector3i",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "array",
+              "type": "int[]",
+              "description": null
+            }
+          ],
+          "description": "Constructor allowing you to specify an array.\n X will be set to the first index of an array(if it exists, otherwise 0).\n Y will be set to the second index of an array(if it exists, otherwise 0).\n Z will be set to the third index of an array(if it exists, otherwise 0).",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3i",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3i.html"
+        },
+        {
+          "name": "getSerializedPosition",
+          "return_type": "long",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3i",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3i.html"
+        },
+        {
+          "name": "getX",
+          "return_type": "int",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3i",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3i.html"
+        },
+        {
+          "name": "getY",
+          "return_type": "int",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3i",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3i.html"
+        },
+        {
+          "name": "getZ",
+          "return_type": "int",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3i",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3i.html"
+        },
+        {
+          "name": "equals",
+          "return_type": "boolean",
+          "parameters": [],
+          "description": "Is the object we are comparing to equal to us?\n It must be of type Vector3d or Vector3i and all values must be equal to the values in this class.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3i",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3i.html"
+        },
+        {
+          "name": "hashCode",
+          "return_type": "int",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3i",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3i.html"
+        },
+        {
+          "name": "toVector3d",
+          "return_type": "Vector3d",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3i",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3i.html"
+        },
+        {
+          "name": "add",
+          "return_type": "Vector3i",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3i",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3i.html"
+        },
+        {
+          "name": "offset",
+          "return_type": "Vector3i",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3i",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3i.html"
+        },
+        {
+          "name": "subtract",
+          "return_type": "Vector3i",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3i",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3i.html"
+        },
+        {
+          "name": "multiply",
+          "return_type": "Vector3i",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "int",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3i",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3i.html"
+        },
+        {
+          "name": "crossProduct",
+          "return_type": "Vector3i",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3i",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3i.html"
+        },
+        {
+          "name": "dot",
+          "return_type": "int",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3i",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3i.html"
+        },
+        {
+          "name": "with",
+          "return_type": "Vector3i",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3i",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3i.html"
+        },
+        {
+          "name": "withX",
+          "return_type": "Vector3i",
+          "parameters": [
+            {
+              "name": "x",
+              "type": "int",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3i",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3i.html"
+        },
+        {
+          "name": "withY",
+          "return_type": "Vector3i",
+          "parameters": [
+            {
+              "name": "y",
+              "type": "int",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3i",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3i.html"
+        },
+        {
+          "name": "withZ",
+          "return_type": "Vector3i",
+          "parameters": [
+            {
+              "name": "z",
+              "type": "int",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3i",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3i.html"
+        },
+        {
+          "name": "toString",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3i",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3i.html"
+        },
+        {
+          "name": "zero",
+          "return_type": "Vector3i",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Vector3i",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3i.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Vector3i.html",
+      "type": "class"
+    },
+    {
+      "name": "EnumUtil",
+      "package_name": "com.github.retrooper.packetevents.util",
+      "description": "Class from com.github.retrooper.packetevents.util",
+      "methods": [
+        {
+          "name": "EnumUtil",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "EnumUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/EnumUtil.html"
+        },
+        {
+          "name": "valueOf",
+          "return_type": "Enum<?>",
+          "parameters": [
+            {
+              "name": "cls",
+              "type": "Class<? extendsEnum<?>>",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "EnumUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/EnumUtil.html"
+        },
+        {
+          "name": "valueByIndex",
+          "return_type": "Enum<?>",
+          "parameters": [
+            {
+              "name": "cls",
+              "type": "Class<? extendsEnum<?>>",
+              "description": null
+            },
+            {
+              "name": "index",
+              "type": "int",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "EnumUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/EnumUtil.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/EnumUtil.html",
+      "type": "class"
+    },
+    {
+      "name": "LegacyFormat",
+      "package_name": "com.github.retrooper.packetevents.util",
+      "description": "Class from com.github.retrooper.packetevents.util",
+      "methods": [
+        {
+          "name": "trimLegacyFormat",
+          "return_type": "String",
+          "parameters": [
+            {
+              "name": "length",
+              "type": "int",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "LegacyFormat",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/LegacyFormat.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/LegacyFormat.html",
+      "type": "class"
+    },
+    {
+      "name": "PEVersion",
+      "package_name": "com.github.retrooper.packetevents.util",
+      "description": "Class from com.github.retrooper.packetevents.util",
+      "methods": [
+        {
+          "name": "PEVersion",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Specify your version using a string, for example: \"1.8.9\".",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PEVersion",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/PEVersion.html"
+        },
+        {
+          "name": "compareTo",
+          "return_type": "int",
+          "parameters": [],
+          "description": "Compare to another PEVersion.\n If we are newer than the compared version,\n this method will return 1.\n If we are older than the compared version,\n this method will return -1.\n If we are equal to the compared version,\n this method will return 0.\n Similar toInteger.compareTo(Integer).",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PEVersion",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/PEVersion.html"
+        },
+        {
+          "name": "isNewerThan",
+          "return_type": "boolean",
+          "parameters": [],
+          "description": "Does thecompareTo(PEVersion)return 1?",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PEVersion",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/PEVersion.html"
+        },
+        {
+          "name": "isOlderThan",
+          "return_type": "boolean",
+          "parameters": [],
+          "description": "Does thecompareTo(PEVersion)return -1?",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PEVersion",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/PEVersion.html"
+        },
+        {
+          "name": "asArray",
+          "return_type": "int[]",
+          "parameters": [],
+          "description": "Represented as an array.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PEVersion",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/PEVersion.html"
+        },
+        {
+          "name": "equals",
+          "return_type": "boolean",
+          "parameters": [],
+          "description": "Is this version equal to the compared object.\n The object must be a PEVersion and the array values must be equal.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PEVersion",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/PEVersion.html"
+        },
+        {
+          "name": "clone",
+          "return_type": "PEVersion",
+          "parameters": [],
+          "description": "Clone the PEVersion.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PEVersion",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/PEVersion.html"
+        },
+        {
+          "name": "toString",
+          "return_type": "String",
+          "parameters": [],
+          "description": "Represent the version as a string.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PEVersion",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/PEVersion.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/PEVersion.html",
+      "type": "class"
+    },
+    {
+      "name": "PacketEventsImplHelper",
+      "package_name": "com.github.retrooper.packetevents.util",
+      "description": "Class from com.github.retrooper.packetevents.util",
+      "methods": [
+        {
+          "name": "PacketEventsImplHelper",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEventsImplHelper",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/PacketEventsImplHelper.html"
+        },
+        {
+          "name": "handleClientBoundPacket",
+          "return_type": "PacketSendEvent",
+          "parameters": [
+            {
+              "name": "autoProtocolTranslation",
+              "type": "boolean",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEventsImplHelper",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/PacketEventsImplHelper.html"
+        },
+        {
+          "name": "handleServerBoundPacket",
+          "return_type": "PacketReceiveEvent",
+          "parameters": [
+            {
+              "name": "autoProtocolTranslation",
+              "type": "boolean",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEventsImplHelper",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/PacketEventsImplHelper.html"
+        },
+        {
+          "name": "handleDisconnection",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "@NullableUUIDuuid",
+              "type": "@Nullable",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEventsImplHelper",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/PacketEventsImplHelper.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/PacketEventsImplHelper.html",
+      "type": "class"
+    },
+    {
+      "name": "Filterable",
+      "package_name": "com.github.retrooper.packetevents.util",
+      "description": "Class from com.github.retrooper.packetevents.util",
+      "methods": [
+        {
+          "name": "Filterable",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "filtered",
+              "type": "Optional<T>",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Filterable",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Filterable.html"
+        },
+        {
+          "name": "read",
+          "return_type": "Filterable<T>",
+          "parameters": [
+            {
+              "name": "wrapper",
+              "type": "PacketWrapper<?>",
+              "description": null
+            },
+            {
+              "name": "reader",
+              "type": "PacketWrapper.Reader<T>",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Filterable",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Filterable.html"
+        },
+        {
+          "name": "write",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "wrapper",
+              "type": "PacketWrapper<?>",
+              "description": null
+            },
+            {
+              "name": "filterable",
+              "type": "Filterable<T>",
+              "description": null
+            },
+            {
+              "name": "writer",
+              "type": "PacketWrapper.Writer<T>",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Filterable",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Filterable.html"
+        },
+        {
+          "name": "getRaw",
+          "return_type": "T",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Filterable",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Filterable.html"
+        },
+        {
+          "name": "setRaw",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Filterable",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Filterable.html"
+        },
+        {
+          "name": "getFiltered",
+          "return_type": "T",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Filterable",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Filterable.html"
+        },
+        {
+          "name": "setFiltered",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Filterable",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Filterable.html"
+        },
+        {
+          "name": "equals",
+          "return_type": "boolean",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Filterable",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Filterable.html"
+        },
+        {
+          "name": "hashCode",
+          "return_type": "int",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Filterable",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Filterable.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/Filterable.html",
+      "type": "class"
+    },
+    {
+      "name": "PacketTransformationUtil",
+      "package_name": "com.github.retrooper.packetevents.util",
+      "description": "Class from com.github.retrooper.packetevents.util",
+      "methods": [
+        {
+          "name": "PacketTransformationUtil",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketTransformationUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/PacketTransformationUtil.html"
+        },
+        {
+          "name": "transform",
+          "return_type": "PacketWrapper<?>[]",
+          "parameters": [
+            {
+              "name": "wrapper",
+              "type": "PacketWrapper<?>",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketTransformationUtil",
+          "package_name": "com.github.retrooper.packetevents.util",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/PacketTransformationUtil.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/util/PacketTransformationUtil.html",
+      "type": "class"
+    },
+    {
+      "name": "PacketEventsAPI",
+      "package_name": "com.github.retrooper.packetevents",
+      "description": "Class from com.github.retrooper.packetevents",
+      "methods": [
+        {
+          "name": "PacketEventsAPI",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEventsAPI",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEventsAPI.html"
+        },
+        {
+          "name": "getEventManager",
+          "return_type": "EventManager",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEventsAPI",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEventsAPI.html"
+        },
+        {
+          "name": "getSettings",
+          "return_type": "PacketEventsSettings",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEventsAPI",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEventsAPI.html"
+        },
+        {
+          "name": "getUpdateChecker",
+          "return_type": "UpdateChecker",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEventsAPI",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEventsAPI.html"
+        },
+        {
+          "name": "getVersion",
+          "return_type": "PEVersion",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEventsAPI",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEventsAPI.html"
+        },
+        {
+          "name": "getLogger",
+          "return_type": "Logger",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEventsAPI",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEventsAPI.html"
+        },
+        {
+          "name": "getLogManager",
+          "return_type": "LogManager",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEventsAPI",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEventsAPI.html"
+        },
+        {
+          "name": "load",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEventsAPI",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEventsAPI.html"
+        },
+        {
+          "name": "isLoaded",
+          "return_type": "boolean",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEventsAPI",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEventsAPI.html"
+        },
+        {
+          "name": "init",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEventsAPI",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEventsAPI.html"
+        },
+        {
+          "name": "isInitialized",
+          "return_type": "boolean",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEventsAPI",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEventsAPI.html"
+        },
+        {
+          "name": "terminate",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEventsAPI",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEventsAPI.html"
+        },
+        {
+          "name": "getPlugin",
+          "return_type": "T",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEventsAPI",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEventsAPI.html"
+        },
+        {
+          "name": "getServerManager",
+          "return_type": "ServerManager",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEventsAPI",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEventsAPI.html"
+        },
+        {
+          "name": "getProtocolManager",
+          "return_type": "ProtocolManager",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEventsAPI",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEventsAPI.html"
+        },
+        {
+          "name": "getPlayerManager",
+          "return_type": "PlayerManager",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEventsAPI",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEventsAPI.html"
+        },
+        {
+          "name": "getNettyManager",
+          "return_type": "NettyManager",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEventsAPI",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEventsAPI.html"
+        },
+        {
+          "name": "getInjector",
+          "return_type": "ChannelInjector",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEventsAPI",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEventsAPI.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEventsAPI.html",
+      "type": "class"
+    },
+    {
+      "name": "PacketEvents",
+      "package_name": "com.github.retrooper.packetevents",
+      "description": "Class from com.github.retrooper.packetevents",
+      "methods": [
+        {
+          "name": "IDENTIFIER",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEvents",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEvents.html"
+        },
+        {
+          "name": "ENCODER_NAME",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEvents",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEvents.html"
+        },
+        {
+          "name": "DECODER_NAME",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEvents",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEvents.html"
+        },
+        {
+          "name": "CONNECTION_HANDLER_NAME",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEvents",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEvents.html"
+        },
+        {
+          "name": "SERVER_CHANNEL_HANDLER_NAME",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEvents",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEvents.html"
+        },
+        {
+          "name": "TIMEOUT_HANDLER_NAME",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEvents",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEvents.html"
+        },
+        {
+          "name": "PacketEvents",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEvents",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEvents.html"
+        },
+        {
+          "name": "getAPI",
+          "return_type": "PacketEventsAPI<?>",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEvents",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEvents.html"
+        },
+        {
+          "name": "setAPI",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "api",
+              "type": "PacketEventsAPI<?>",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "PacketEvents",
+          "package_name": "com.github.retrooper.packetevents",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEvents.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/PacketEvents.html",
+      "type": "class"
+    },
+    {
+      "name": "InternalPacketListener",
+      "package_name": "com.github.retrooper.packetevents.manager",
+      "description": "Class from com.github.retrooper.packetevents.manager",
+      "methods": [
+        {
+          "name": "InternalPacketListener",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "InternalPacketListener",
+          "package_name": "com.github.retrooper.packetevents.manager",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/manager/InternalPacketListener.html"
+        },
+        {
+          "name": "onPacketSend",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "InternalPacketListener",
+          "package_name": "com.github.retrooper.packetevents.manager",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/manager/InternalPacketListener.html"
+        },
+        {
+          "name": "onPacketReceive",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "InternalPacketListener",
+          "package_name": "com.github.retrooper.packetevents.manager",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/manager/InternalPacketListener.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/manager/InternalPacketListener.html",
+      "type": "class"
+    },
+    {
+      "name": "ServerboundConfigPacketType_1_20_2",
+      "package_name": "com.github.retrooper.packetevents.protocol.packettype.config.serverbound",
+      "description": "Class from com.github.retrooper.packetevents.protocol.packettype.config.serverbound",
+      "methods": [
+        {
+          "name": "CLIENT_SETTINGS",
+          "return_type": "ServerboundConfigPacketType_1_20_2",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ServerboundConfigPacketType_1_20_2",
+          "package_name": "com.github.retrooper.packetevents.protocol.packettype.config.serverbound",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/protocol/packettype/config/serverbound/ServerboundConfigPacketType_1_20_2.html"
+        },
+        {
+          "name": "PLUGIN_MESSAGE",
+          "return_type": "ServerboundConfigPacketType_1_20_2",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ServerboundConfigPacketType_1_20_2",
+          "package_name": "com.github.retrooper.packetevents.protocol.packettype.config.serverbound",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/protocol/packettype/config/serverbound/ServerboundConfigPacketType_1_20_2.html"
+        },
+        {
+          "name": "CONFIGURATION_END_ACK",
+          "return_type": "ServerboundConfigPacketType_1_20_2",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ServerboundConfigPacketType_1_20_2",
+          "package_name": "com.github.retrooper.packetevents.protocol.packettype.config.serverbound",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/protocol/packettype/config/serverbound/ServerboundConfigPacketType_1_20_2.html"
+        },
+        {
+          "name": "KEEP_ALIVE",
+          "return_type": "ServerboundConfigPacketType_1_20_2",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ServerboundConfigPacketType_1_20_2",
+          "package_name": "com.github.retrooper.packetevents.protocol.packettype.config.serverbound",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/protocol/packettype/config/serverbound/ServerboundConfigPacketType_1_20_2.html"
+        },
+        {
+          "name": "PONG",
+          "return_type": "ServerboundConfigPacketType_1_20_2",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ServerboundConfigPacketType_1_20_2",
+          "package_name": "com.github.retrooper.packetevents.protocol.packettype.config.serverbound",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/protocol/packettype/config/serverbound/ServerboundConfigPacketType_1_20_2.html"
+        },
+        {
+          "name": "RESOURCE_PACK_STATUS",
+          "return_type": "ServerboundConfigPacketType_1_20_2",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ServerboundConfigPacketType_1_20_2",
+          "package_name": "com.github.retrooper.packetevents.protocol.packettype.config.serverbound",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/protocol/packettype/config/serverbound/ServerboundConfigPacketType_1_20_2.html"
+        },
+        {
+          "name": "values",
+          "return_type": "ServerboundConfigPacketType_1_20_2[]",
+          "parameters": [],
+          "description": "Returns an array containing the constants of this enum class, in\nthe order they are declared.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ServerboundConfigPacketType_1_20_2",
+          "package_name": "com.github.retrooper.packetevents.protocol.packettype.config.serverbound",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/protocol/packettype/config/serverbound/ServerboundConfigPacketType_1_20_2.html"
+        },
+        {
+          "name": "valueOf",
+          "return_type": "ServerboundConfigPacketType_1_20_2",
+          "parameters": [],
+          "description": "Returns the enum constant of this class with the specified name.\nThe string must matchexactlyan identifier used to declare an\nenum constant in this class.  (Extraneous whitespace characters are \nnot permitted.)",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ServerboundConfigPacketType_1_20_2",
+          "package_name": "com.github.retrooper.packetevents.protocol.packettype.config.serverbound",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/protocol/packettype/config/serverbound/ServerboundConfigPacketType_1_20_2.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/protocol/packettype/config/serverbound/ServerboundConfigPacketType_1_20_2.html",
+      "type": "class"
+    },
+    {
+      "name": "ServerboundConfigPacketType_1_20_5",
+      "package_name": "com.github.retrooper.packetevents.protocol.packettype.config.serverbound",
+      "description": "Class from com.github.retrooper.packetevents.protocol.packettype.config.serverbound",
+      "methods": [
+        {
+          "name": "CLIENT_SETTINGS",
+          "return_type": "ServerboundConfigPacketType_1_20_5",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ServerboundConfigPacketType_1_20_5",
+          "package_name": "com.github.retrooper.packetevents.protocol.packettype.config.serverbound",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/protocol/packettype/config/serverbound/ServerboundConfigPacketType_1_20_5.html"
+        },
+        {
+          "name": "COOKIE_RESPONSE",
+          "return_type": "ServerboundConfigPacketType_1_20_5",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ServerboundConfigPacketType_1_20_5",
+          "package_name": "com.github.retrooper.packetevents.protocol.packettype.config.serverbound",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/protocol/packettype/config/serverbound/ServerboundConfigPacketType_1_20_5.html"
+        },
+        {
+          "name": "PLUGIN_MESSAGE",
+          "return_type": "ServerboundConfigPacketType_1_20_5",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ServerboundConfigPacketType_1_20_5",
+          "package_name": "com.github.retrooper.packetevents.protocol.packettype.config.serverbound",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/protocol/packettype/config/serverbound/ServerboundConfigPacketType_1_20_5.html"
+        },
+        {
+          "name": "CONFIGURATION_END_ACK",
+          "return_type": "ServerboundConfigPacketType_1_20_5",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ServerboundConfigPacketType_1_20_5",
+          "package_name": "com.github.retrooper.packetevents.protocol.packettype.config.serverbound",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/protocol/packettype/config/serverbound/ServerboundConfigPacketType_1_20_5.html"
+        },
+        {
+          "name": "KEEP_ALIVE",
+          "return_type": "ServerboundConfigPacketType_1_20_5",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ServerboundConfigPacketType_1_20_5",
+          "package_name": "com.github.retrooper.packetevents.protocol.packettype.config.serverbound",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/protocol/packettype/config/serverbound/ServerboundConfigPacketType_1_20_5.html"
+        },
+        {
+          "name": "PONG",
+          "return_type": "ServerboundConfigPacketType_1_20_5",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ServerboundConfigPacketType_1_20_5",
+          "package_name": "com.github.retrooper.packetevents.protocol.packettype.config.serverbound",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/protocol/packettype/config/serverbound/ServerboundConfigPacketType_1_20_5.html"
+        },
+        {
+          "name": "RESOURCE_PACK_STATUS",
+          "return_type": "ServerboundConfigPacketType_1_20_5",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ServerboundConfigPacketType_1_20_5",
+          "package_name": "com.github.retrooper.packetevents.protocol.packettype.config.serverbound",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/protocol/packettype/config/serverbound/ServerboundConfigPacketType_1_20_5.html"
+        },
+        {
+          "name": "SELECT_KNOWN_PACKS",
+          "return_type": "ServerboundConfigPacketType_1_20_5",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ServerboundConfigPacketType_1_20_5",
+          "package_name": "com.github.retrooper.packetevents.protocol.packettype.config.serverbound",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/protocol/packettype/config/serverbound/ServerboundConfigPacketType_1_20_5.html"
+        },
+        {
+          "name": "values",
+          "return_type": "ServerboundConfigPacketType_1_20_5[]",
+          "parameters": [],
+          "description": "Returns an array containing the constants of this enum class, in\nthe order they are declared.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ServerboundConfigPacketType_1_20_5",
+          "package_name": "com.github.retrooper.packetevents.protocol.packettype.config.serverbound",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/protocol/packettype/config/serverbound/ServerboundConfigPacketType_1_20_5.html"
+        },
+        {
+          "name": "valueOf",
+          "return_type": "ServerboundConfigPacketType_1_20_5",
+          "parameters": [],
+          "description": "Returns the enum constant of this class with the specified name.\nThe string must matchexactlyan identifier used to declare an\nenum constant in this class.  (Extraneous whitespace characters are \nnot permitted.)",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ServerboundConfigPacketType_1_20_5",
+          "package_name": "com.github.retrooper.packetevents.protocol.packettype.config.serverbound",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/protocol/packettype/config/serverbound/ServerboundConfigPacketType_1_20_5.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/protocol/packettype/config/serverbound/ServerboundConfigPacketType_1_20_5.html",
+      "type": "class"
+    },
+    {
+      "name": "ChannelInjector",
+      "package_name": "com.github.retrooper.packetevents.injector",
+      "description": "Class from com.github.retrooper.packetevents.injector",
+      "methods": [
+        {
+          "name": "inject",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ChannelInjector",
+          "package_name": "com.github.retrooper.packetevents.injector",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/injector/ChannelInjector.html"
+        },
+        {
+          "name": "isProxy",
+          "return_type": "boolean",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ChannelInjector",
+          "package_name": "com.github.retrooper.packetevents.injector",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/injector/ChannelInjector.html"
+        },
+        {
+          "name": "isServerBound",
+          "return_type": "boolean",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ChannelInjector",
+          "package_name": "com.github.retrooper.packetevents.injector",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/injector/ChannelInjector.html"
+        },
+        {
+          "name": "setPlayer",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ChannelInjector",
+          "package_name": "com.github.retrooper.packetevents.injector",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/injector/ChannelInjector.html"
+        },
+        {
+          "name": "uninject",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ChannelInjector",
+          "package_name": "com.github.retrooper.packetevents.injector",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/injector/ChannelInjector.html"
+        },
+        {
+          "name": "updateUser",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ChannelInjector",
+          "package_name": "com.github.retrooper.packetevents.injector",
+          "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/injector/ChannelInjector.html"
+        }
+      ],
+      "url": "https://javadocs.packetevents.com/javadocs/com/github/retrooper/packetevents/injector/ChannelInjector.html",
+      "type": "class"
+    }
+  ]
+}

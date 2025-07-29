@@ -1,0 +1,4543 @@
+{
+  "source_url": "https://javadocs.andrei1058.dev/BedWars1058/",
+  "total_classes": 20,
+  "total_methods": 306,
+  "classes": [
+    {
+      "name": "Party",
+      "package_name": "com.andrei1058.bedwars.api.party",
+      "description": "Class from com.andrei1058.bedwars.api.party",
+      "methods": [
+        {
+          "name": "addMember",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "owner",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            },
+            {
+              "name": "member",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Party",
+          "package_name": "com.andrei1058.bedwars.api.party",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/party/Party.html"
+        },
+        {
+          "name": "createParty",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "owner",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            },
+            {
+              "name": "members",
+              "type": "org.bukkit.entity.Player...",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Party",
+          "package_name": "com.andrei1058.bedwars.api.party",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/party/Party.html"
+        },
+        {
+          "name": "disband",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "owner",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Party",
+          "package_name": "com.andrei1058.bedwars.api.party",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/party/Party.html"
+        },
+        {
+          "name": "getMembers",
+          "return_type": "List<org.bukkit.entity.Player>",
+          "parameters": [
+            {
+              "name": "owner",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Party",
+          "package_name": "com.andrei1058.bedwars.api.party",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/party/Party.html"
+        },
+        {
+          "name": "getOwner",
+          "return_type": "org.bukkit.entity.Player",
+          "parameters": [
+            {
+              "name": "member",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Party",
+          "package_name": "com.andrei1058.bedwars.api.party",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/party/Party.html"
+        },
+        {
+          "name": "hasParty",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Party",
+          "package_name": "com.andrei1058.bedwars.api.party",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/party/Party.html"
+        },
+        {
+          "name": "isInternal",
+          "return_type": "boolean",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Party",
+          "package_name": "com.andrei1058.bedwars.api.party",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/party/Party.html"
+        },
+        {
+          "name": "isMember",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "owner",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            },
+            {
+              "name": "check",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Party",
+          "package_name": "com.andrei1058.bedwars.api.party",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/party/Party.html"
+        },
+        {
+          "name": "isOwner",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Party",
+          "package_name": "com.andrei1058.bedwars.api.party",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/party/Party.html"
+        },
+        {
+          "name": "partySize",
+          "return_type": "int",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Party",
+          "package_name": "com.andrei1058.bedwars.api.party",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/party/Party.html"
+        },
+        {
+          "name": "promote",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "owner",
+              "type": "@NotNull @NotNull org.bukkit.entity.Player",
+              "description": null
+            },
+            {
+              "name": "target",
+              "type": "@NotNull @NotNull org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Party",
+          "package_name": "com.andrei1058.bedwars.api.party",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/party/Party.html"
+        },
+        {
+          "name": "removeFromParty",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "member",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Party",
+          "package_name": "com.andrei1058.bedwars.api.party",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/party/Party.html"
+        },
+        {
+          "name": "removePlayer",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "owner",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            },
+            {
+              "name": "target",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "Party",
+          "package_name": "com.andrei1058.bedwars.api.party",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/party/Party.html"
+        }
+      ],
+      "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/party/Party.html",
+      "type": "class"
+    },
+    {
+      "name": "NextEvent",
+      "package_name": "com.andrei1058.bedwars.api.arena",
+      "description": "Class from com.andrei1058.bedwars.api.arena",
+      "methods": [
+        {
+          "name": "DIAMOND_GENERATOR_TIER_II",
+          "return_type": "NextEvent",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "NextEvent",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/NextEvent.html"
+        },
+        {
+          "name": "DIAMOND_GENERATOR_TIER_III",
+          "return_type": "NextEvent",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "NextEvent",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/NextEvent.html"
+        },
+        {
+          "name": "EMERALD_GENERATOR_TIER_II",
+          "return_type": "NextEvent",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "NextEvent",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/NextEvent.html"
+        },
+        {
+          "name": "EMERALD_GENERATOR_TIER_III",
+          "return_type": "NextEvent",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "NextEvent",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/NextEvent.html"
+        },
+        {
+          "name": "BEDS_DESTROY",
+          "return_type": "NextEvent",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "NextEvent",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/NextEvent.html"
+        },
+        {
+          "name": "ENDER_DRAGON",
+          "return_type": "NextEvent",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "NextEvent",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/NextEvent.html"
+        },
+        {
+          "name": "GAME_END",
+          "return_type": "NextEvent",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "NextEvent",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/NextEvent.html"
+        },
+        {
+          "name": "values",
+          "return_type": "NextEvent[]",
+          "parameters": [],
+          "description": "Returns an array containing the constants of this enum class, in\nthe order they are declared.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "NextEvent",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/NextEvent.html"
+        },
+        {
+          "name": "valueOf",
+          "return_type": "NextEvent",
+          "parameters": [],
+          "description": "Returns the enum constant of this class with the specified name.\nThe string must matchexactlyan identifier used to declare an\nenum constant in this class.  (Extraneous whitespace characters are \nnot permitted.)",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "NextEvent",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/NextEvent.html"
+        },
+        {
+          "name": "getSoundPath",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "NextEvent",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/NextEvent.html"
+        }
+      ],
+      "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/NextEvent.html",
+      "type": "class"
+    },
+    {
+      "name": "IArena",
+      "package_name": "com.andrei1058.bedwars.api.arena",
+      "description": "Class from com.andrei1058.bedwars.api.arena",
+      "methods": [
+        {
+          "name": "abandonGame",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "player",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "This is triggered when a player has abandoned a game.\n This should remove its assist from existing team and re-join session.\n This does not replaceremovePlayer(Player, boolean).",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "addPlacedBlock",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "block",
+              "type": "org.bukkit.block.Block",
+              "description": null
+            }
+          ],
+          "description": "Add placed block to cache.\n So players will be able to remove blocks placed by players only.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "addPlayer",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            },
+            {
+              "name": "skipOwnerCheck",
+              "type": "boolean",
+              "description": null
+            }
+          ],
+          "description": "Add a player to the arena",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "addPlayerBedDestroyed",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "Add a destroyed bed point to the player temp stats.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "addPlayerDeath",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "Add a kill to the player temp stats.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "addPlayerKill",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            },
+            {
+              "name": "finalKill",
+              "type": "boolean",
+              "description": null
+            },
+            {
+              "name": "victim",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "Add a kill point to the game stats.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "addSign",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "loc",
+              "type": "org.bukkit.Location",
+              "description": null
+            }
+          ],
+          "description": "Add a join sign for the arena.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "addSpectator",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            },
+            {
+              "name": "playerBefore",
+              "type": "boolean",
+              "description": null
+            },
+            {
+              "name": "staffTeleport",
+              "type": "org.bukkit.Location",
+              "description": null
+            }
+          ],
+          "description": "Add a player as Spectator",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "changeStatus",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Change game status starting tasks.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "checkWinner",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Check winner. Will check if the game has a winner in certain conditions. Manage your win conditions.\n Call the arena restart and the needed stuff.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "destroyData",
+          "return_type": "void",
+          "parameters": [],
+          "description": "This is used to destroy arena data when it restarts.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "disable",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Disable the arena.\n This will automatically kick/ remove the people from the arena.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getArenaName",
+          "return_type": "String",
+          "parameters": [],
+          "description": "Get used world name.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getBedsTeam",
+          "return_type": "@NullableITeam",
+          "parameters": [
+            {
+              "name": "location",
+              "type": "org.bukkit.Location",
+              "description": null
+            }
+          ],
+          "description": "Get owner team of a bed based on location.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getConfig",
+          "return_type": "ConfigManager",
+          "parameters": [],
+          "description": "Get arena config.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getDiamondTier",
+          "return_type": "int",
+          "parameters": [],
+          "description": "Get the current diamond generator tier for this arena.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getDisplayGroup",
+          "return_type": "String",
+          "parameters": [],
+          "description": "Get arena display group for given language.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getDisplayName",
+          "return_type": "String",
+          "parameters": [],
+          "description": "Get the arena name as a message that can be used on signs etc.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getDisplayStatus",
+          "return_type": "String",
+          "parameters": [],
+          "description": "Get the display status for an arena.\n A message that can be used on signs etc.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getEmeraldTier",
+          "return_type": "int",
+          "parameters": [],
+          "description": "Get the current emerald generator tier for this arena.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getExTeam",
+          "return_type": "ITeam",
+          "parameters": [],
+          "description": "Get the team where the player has played in current match.\n To be used if the player was eliminated.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getFireballCooldowns",
+          "return_type": "Map<UUID,Long>",
+          "parameters": [],
+          "description": "Gets the cooldowns for fireballs",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getGroup",
+          "return_type": "String",
+          "parameters": [],
+          "description": "Get arena group.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getIslandRadius",
+          "return_type": "int",
+          "parameters": [],
+          "description": "Get the island radius",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getLeavingPlayers",
+          "return_type": "List<org.bukkit.entity.Player>",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getMaxInTeam",
+          "return_type": "int",
+          "parameters": [],
+          "description": "Get maximum players allowed in a team.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getMaxPlayers",
+          "return_type": "int",
+          "parameters": [],
+          "description": "Get maximum allowed players amount.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getNextEvent",
+          "return_type": "NextEvent",
+          "parameters": [],
+          "description": "Get next event.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getNextEvents",
+          "return_type": "List<String>",
+          "parameters": [],
+          "description": "Get the list of next events to come.\n Not ordered.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getOreGenerators",
+          "return_type": "List<IGenerator>",
+          "parameters": [],
+          "description": "Get Ore Generators.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getPlaced",
+          "return_type": "LinkedList<org.bukkit.util.Vector>",
+          "parameters": [],
+          "description": "List of placed blocks.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getPlayerBedsDestroyed",
+          "return_type": "int",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "Get the player beds destroyed count",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getPlayerDeaths",
+          "return_type": "int",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            },
+            {
+              "name": "finalDeaths",
+              "type": "boolean",
+              "description": null
+            }
+          ],
+          "description": "Get player deaths.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getPlayerKills",
+          "return_type": "int",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            },
+            {
+              "name": "finalKills",
+              "type": "boolean",
+              "description": null
+            }
+          ],
+          "description": "Get a player kills count.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getPlayers",
+          "return_type": "List<org.bukkit.entity.Player>",
+          "parameters": [],
+          "description": "Get players in arena.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getPlayerTeam",
+          "return_type": "ITeam",
+          "parameters": [],
+          "description": "Get arena by player name.\n Used to get the team for a player that has left the arena.\n Make sure the player is in this arena first.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getPlayingTask",
+          "return_type": "PlayingTask",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getRegionsList",
+          "return_type": "List<Region>",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getRenderDistance",
+          "return_type": "int",
+          "parameters": [],
+          "description": "Get player render distance in blocks.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getReSpawnLocation",
+          "return_type": "org.bukkit.Location",
+          "parameters": [],
+          "description": "Get re-spawning screen location.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getRespawnSessions",
+          "return_type": "ConcurrentHashMap<org.bukkit.entity.Player,Integer>",
+          "parameters": [],
+          "description": "Get list of players in respawn screen.\n Player is the actual player in re-spawn screen.\n Integer is the remaining time.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getRestartingTask",
+          "return_type": "RestartingTask",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getShowTime",
+          "return_type": "ConcurrentHashMap<org.bukkit.entity.Player,Integer>",
+          "parameters": [],
+          "description": "Get invisibility for armor",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getSigns",
+          "return_type": "List<org.bukkit.block.Block>",
+          "parameters": [],
+          "description": "Get the join signs for this arena",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getSpectatorLocation",
+          "return_type": "org.bukkit.Location",
+          "parameters": [],
+          "description": "Where spectators will spawn.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getSpectators",
+          "return_type": "List<org.bukkit.entity.Player>",
+          "parameters": [],
+          "description": "Get a list of spectators.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getStartingTask",
+          "return_type": "StartingTask",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getStartTime",
+          "return_type": "Instant",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getStatsHolder",
+          "return_type": "@NullableGameStatsHolder",
+          "parameters": [],
+          "description": "Session stats.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getStatus",
+          "return_type": "GameState",
+          "parameters": [],
+          "description": "Get arena status.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getTeam",
+          "return_type": "ITeam",
+          "parameters": [],
+          "description": "Get a team by name",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getTeamAssigner",
+          "return_type": "ITeamAssigner",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getTeams",
+          "return_type": "List<ITeam>",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getUpgradeDiamondsCount",
+          "return_type": "int",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getUpgradeEmeraldsCount",
+          "return_type": "int",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getWaitingLocation",
+          "return_type": "org.bukkit.Location",
+          "parameters": [],
+          "description": "Location where to spawn at join (waiting/ starting).",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getWinner",
+          "return_type": "@NullableITeam",
+          "parameters": [],
+          "description": "Provides the winner team.\n This is populated on restarting phase.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getWorld",
+          "return_type": "org.bukkit.World",
+          "parameters": [],
+          "description": "Get the arena world",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getWorldName",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getYHeightLimit",
+          "return_type": "int",
+          "parameters": [],
+          "description": "y limit for players to be able to build.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "getYKillHeight",
+          "return_type": "int",
+          "parameters": [],
+          "description": "-1 won't handle void kill.\n Instant kill when player y is under this number.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "init",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "world",
+              "type": "org.bukkit.World",
+              "description": null
+            }
+          ],
+          "description": "Initialize the arena after loading the world.\n This needs to be called in order to allow players to join.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "isAllowMapBreak",
+          "return_type": "boolean",
+          "parameters": [],
+          "description": "Check if breaking map is allowed, otherwise only placed blocks are allowed.\n Some blocks like have a special protections, like blocks under shopkeepers, bed, ecc.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "isAllowSpectate",
+          "return_type": "boolean",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "isBlockPlaced",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "block",
+              "type": "org.bukkit.block.Block",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "isPlayer",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "player",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "Check if user is playing.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "isProtected",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "location",
+              "type": "org.bukkit.Location",
+              "description": null
+            }
+          ],
+          "description": "Check if the given location is protected.\n Border checks, regions, island spawn protection, npc protections, generator protections.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "isRespawning",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "Check if target player is in re-spawning screen.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "isReSpawning",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "player",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "Check if a player is in re-spawning screen/ countdown.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "isSpectator",
+          "return_type": "boolean",
+          "parameters": [],
+          "description": "Check if a player is spectating on this arena.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "isTeamBed",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "location",
+              "type": "org.bukkit.Location",
+              "description": null
+            }
+          ],
+          "description": "Check if there is a player bed at given location.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "refreshSigns",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Refresh signs.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "reJoin",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "Rejoin an arena",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "removePlacedBlock",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "block",
+              "type": "org.bukkit.block.Block",
+              "description": null
+            }
+          ],
+          "description": "Remove placed block.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "removePlayer",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            },
+            {
+              "name": "disconnect",
+              "type": "boolean",
+              "description": null
+            }
+          ],
+          "description": "Remove a player from the arena",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "removeSpectator",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            },
+            {
+              "name": "disconnect",
+              "type": "boolean",
+              "description": null
+            }
+          ],
+          "description": "Remove a spectator from the arena",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "restart",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Restart the arena.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "sendDiamondsUpgradeMessages",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Show upgrade announcement to players.\n Change diamondTier value first.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "sendEmeraldsUpgradeMessages",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Show upgrade announcement to players.\n Change emeraldTier value first.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "sendPreGameCommandItems",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "This will give the pre-game command Items.\n This will clear the inventory first.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "sendSpectatorCommandItems",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "This will give the spectator command Items.\n This will clear the inventory first.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "setAllowMapBreak",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "allowMapBreak",
+              "type": "boolean",
+              "description": null
+            }
+          ],
+          "description": "Toggle map block break rule.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "setAllowSpectate",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "allowSpectate",
+              "type": "boolean",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "setGroup",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "setNextEvent",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Set next event for the arena.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "setStatus",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Set game status without starting stats.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "setTeamAssigner",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "setWorldName",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Change world name for auto-scaling.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "startReSpawnSession",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "player",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            },
+            {
+              "name": "seconds",
+              "type": "int",
+              "description": null
+            }
+          ],
+          "description": "Put a player in re-spawning countdown.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "updateNextEvent",
+          "return_type": "void",
+          "parameters": [],
+          "description": "This will attempt to upgrade the next event if it is the case.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        },
+        {
+          "name": "updateSpectatorCollideRule",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            },
+            {
+              "name": "collide",
+              "type": "boolean",
+              "description": null
+            }
+          ],
+          "description": "Disable spectator collisions.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IArena",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html"
+        }
+      ],
+      "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/IArena.html",
+      "type": "class"
+    },
+    {
+      "name": "GameState",
+      "package_name": "com.andrei1058.bedwars.api.arena",
+      "description": "Class from com.andrei1058.bedwars.api.arena",
+      "methods": [
+        {
+          "name": "waiting",
+          "return_type": "GameState",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "GameState",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/GameState.html"
+        },
+        {
+          "name": "starting",
+          "return_type": "GameState",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "GameState",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/GameState.html"
+        },
+        {
+          "name": "playing",
+          "return_type": "GameState",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "GameState",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/GameState.html"
+        },
+        {
+          "name": "restarting",
+          "return_type": "GameState",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "GameState",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/GameState.html"
+        },
+        {
+          "name": "values",
+          "return_type": "GameState[]",
+          "parameters": [],
+          "description": "Returns an array containing the constants of this enum class, in\nthe order they are declared.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "GameState",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/GameState.html"
+        },
+        {
+          "name": "valueOf",
+          "return_type": "GameState",
+          "parameters": [],
+          "description": "Returns the enum constant of this class with the specified name.\nThe string must matchexactlyan identifier used to declare an\nenum constant in this class.  (Extraneous whitespace characters are \nnot permitted.)",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "GameState",
+          "package_name": "com.andrei1058.bedwars.api.arena",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/GameState.html"
+        }
+      ],
+      "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/GameState.html",
+      "type": "class"
+    },
+    {
+      "name": "ShopOpenEvent",
+      "package_name": "com.andrei1058.bedwars.api.events.shop",
+      "description": "Class from com.andrei1058.bedwars.api.events.shop",
+      "methods": [
+        {
+          "name": "ShopOpenEvent",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "player",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "Triggered when the shop NPS is clicked.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ShopOpenEvent",
+          "package_name": "com.andrei1058.bedwars.api.events.shop",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/events/shop/ShopOpenEvent.html"
+        },
+        {
+          "name": "getArena",
+          "return_type": "IArena",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ShopOpenEvent",
+          "package_name": "com.andrei1058.bedwars.api.events.shop",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/events/shop/ShopOpenEvent.html"
+        },
+        {
+          "name": "getPlayer",
+          "return_type": "org.bukkit.entity.Player",
+          "parameters": [],
+          "description": "Get the player who opened the shop.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ShopOpenEvent",
+          "package_name": "com.andrei1058.bedwars.api.events.shop",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/events/shop/ShopOpenEvent.html"
+        },
+        {
+          "name": "setCancelled",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "cancelled",
+              "type": "boolean",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ShopOpenEvent",
+          "package_name": "com.andrei1058.bedwars.api.events.shop",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/events/shop/ShopOpenEvent.html"
+        },
+        {
+          "name": "isCancelled",
+          "return_type": "boolean",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ShopOpenEvent",
+          "package_name": "com.andrei1058.bedwars.api.events.shop",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/events/shop/ShopOpenEvent.html"
+        },
+        {
+          "name": "getHandlers",
+          "return_type": "org.bukkit.event.HandlerList",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ShopOpenEvent",
+          "package_name": "com.andrei1058.bedwars.api.events.shop",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/events/shop/ShopOpenEvent.html"
+        },
+        {
+          "name": "getHandlerList",
+          "return_type": "org.bukkit.event.HandlerList",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ShopOpenEvent",
+          "package_name": "com.andrei1058.bedwars.api.events.shop",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/events/shop/ShopOpenEvent.html"
+        }
+      ],
+      "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/events/shop/ShopOpenEvent.html",
+      "type": "class"
+    },
+    {
+      "name": "ShopBuyEvent",
+      "package_name": "com.andrei1058.bedwars.api.events.shop",
+      "description": "Class from com.andrei1058.bedwars.api.events.shop",
+      "methods": [
+        {
+          "name": "ShopBuyEvent",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "buyer",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "Triggered when a player buys from the shop",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ShopBuyEvent",
+          "package_name": "com.andrei1058.bedwars.api.events.shop",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/events/shop/ShopBuyEvent.html"
+        },
+        {
+          "name": "getArena",
+          "return_type": "IArena",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ShopBuyEvent",
+          "package_name": "com.andrei1058.bedwars.api.events.shop",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/events/shop/ShopBuyEvent.html"
+        },
+        {
+          "name": "getBuyer",
+          "return_type": "org.bukkit.entity.Player",
+          "parameters": [],
+          "description": "Get the buyer",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ShopBuyEvent",
+          "package_name": "com.andrei1058.bedwars.api.events.shop",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/events/shop/ShopBuyEvent.html"
+        },
+        {
+          "name": "getCategoryContent",
+          "return_type": "ICategoryContent",
+          "parameters": [],
+          "description": "Get the shop category content bought.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ShopBuyEvent",
+          "package_name": "com.andrei1058.bedwars.api.events.shop",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/events/shop/ShopBuyEvent.html"
+        },
+        {
+          "name": "getHandlers",
+          "return_type": "org.bukkit.event.HandlerList",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ShopBuyEvent",
+          "package_name": "com.andrei1058.bedwars.api.events.shop",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/events/shop/ShopBuyEvent.html"
+        },
+        {
+          "name": "getHandlerList",
+          "return_type": "org.bukkit.event.HandlerList",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ShopBuyEvent",
+          "package_name": "com.andrei1058.bedwars.api.events.shop",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/events/shop/ShopBuyEvent.html"
+        },
+        {
+          "name": "isCancelled",
+          "return_type": "boolean",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ShopBuyEvent",
+          "package_name": "com.andrei1058.bedwars.api.events.shop",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/events/shop/ShopBuyEvent.html"
+        },
+        {
+          "name": "setCancelled",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "cancelled",
+              "type": "boolean",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ShopBuyEvent",
+          "package_name": "com.andrei1058.bedwars.api.events.shop",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/events/shop/ShopBuyEvent.html"
+        }
+      ],
+      "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/events/shop/ShopBuyEvent.html",
+      "type": "class"
+    },
+    {
+      "name": "EnemyBaseEnterTrap",
+      "package_name": "com.andrei1058.bedwars.api.upgrades",
+      "description": "Class from com.andrei1058.bedwars.api.upgrades",
+      "methods": [
+        {
+          "name": "getItemStack",
+          "return_type": "org.bukkit.inventory.ItemStack",
+          "parameters": [],
+          "description": "Trap display item for man gui.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "EnemyBaseEnterTrap",
+          "package_name": "com.andrei1058.bedwars.api.upgrades",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/upgrades/EnemyBaseEnterTrap.html"
+        },
+        {
+          "name": "getLoreMsgPath",
+          "return_type": "String",
+          "parameters": [],
+          "description": "Trap lore msg path.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "EnemyBaseEnterTrap",
+          "package_name": "com.andrei1058.bedwars.api.upgrades",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/upgrades/EnemyBaseEnterTrap.html"
+        },
+        {
+          "name": "getNameMsgPath",
+          "return_type": "String",
+          "parameters": [],
+          "description": "Trap name msg path.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "EnemyBaseEnterTrap",
+          "package_name": "com.andrei1058.bedwars.api.upgrades",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/upgrades/EnemyBaseEnterTrap.html"
+        },
+        {
+          "name": "trigger",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "player",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "What to do on trigger.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "EnemyBaseEnterTrap",
+          "package_name": "com.andrei1058.bedwars.api.upgrades",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/upgrades/EnemyBaseEnterTrap.html"
+        }
+      ],
+      "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/upgrades/EnemyBaseEnterTrap.html",
+      "type": "class"
+    },
+    {
+      "name": "UpgradesIndex",
+      "package_name": "com.andrei1058.bedwars.api.upgrades",
+      "description": "Class from com.andrei1058.bedwars.api.upgrades",
+      "methods": [
+        {
+          "name": "addContent",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "slot",
+              "type": "int",
+              "description": null
+            }
+          ],
+          "description": "Add content to a menu.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "UpgradesIndex",
+          "package_name": "com.andrei1058.bedwars.api.upgrades",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/upgrades/UpgradesIndex.html"
+        },
+        {
+          "name": "countTiers",
+          "return_type": "int",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "UpgradesIndex",
+          "package_name": "com.andrei1058.bedwars.api.upgrades",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/upgrades/UpgradesIndex.html"
+        },
+        {
+          "name": "getMenuContentBySlot",
+          "return_type": "com.google.common.collect.ImmutableMap<Integer,MenuContent>",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "UpgradesIndex",
+          "package_name": "com.andrei1058.bedwars.api.upgrades",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/upgrades/UpgradesIndex.html"
+        },
+        {
+          "name": "getName",
+          "return_type": "String",
+          "parameters": [],
+          "description": "Get menu name.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "UpgradesIndex",
+          "package_name": "com.andrei1058.bedwars.api.upgrades",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/upgrades/UpgradesIndex.html"
+        },
+        {
+          "name": "open",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "player",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "Open this menu to a player.\n Make sure to useBedWars.TeamUpgradesUtil.setWatchingGUI(Player)",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "UpgradesIndex",
+          "package_name": "com.andrei1058.bedwars.api.upgrades",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/upgrades/UpgradesIndex.html"
+        }
+      ],
+      "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/upgrades/UpgradesIndex.html",
+      "type": "class"
+    },
+    {
+      "name": "MenuContent",
+      "package_name": "com.andrei1058.bedwars.api.upgrades",
+      "description": "Class from com.andrei1058.bedwars.api.upgrades",
+      "methods": [
+        {
+          "name": "getDisplayItem",
+          "return_type": "org.bukkit.inventory.ItemStack",
+          "parameters": [
+            {
+              "name": "player",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "Item that represent the item in the GUI.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "MenuContent",
+          "package_name": "com.andrei1058.bedwars.api.upgrades",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/upgrades/MenuContent.html"
+        },
+        {
+          "name": "getName",
+          "return_type": "String",
+          "parameters": [],
+          "description": "Get identifier.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "MenuContent",
+          "package_name": "com.andrei1058.bedwars.api.upgrades",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/upgrades/MenuContent.html"
+        },
+        {
+          "name": "onClick",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "player",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            },
+            {
+              "name": "clickType",
+              "type": "org.bukkit.event.inventory.ClickType",
+              "description": null
+            }
+          ],
+          "description": "Manage what to do on click.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "MenuContent",
+          "package_name": "com.andrei1058.bedwars.api.upgrades",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/upgrades/MenuContent.html"
+        }
+      ],
+      "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/upgrades/MenuContent.html",
+      "type": "class"
+    },
+    {
+      "name": "TeamUpgrade",
+      "package_name": "com.andrei1058.bedwars.api.upgrades",
+      "description": "Class from com.andrei1058.bedwars.api.upgrades",
+      "methods": [
+        {
+          "name": "getName",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "TeamUpgrade",
+          "package_name": "com.andrei1058.bedwars.api.upgrades",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/upgrades/TeamUpgrade.html"
+        },
+        {
+          "name": "getTierCount",
+          "return_type": "int",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "TeamUpgrade",
+          "package_name": "com.andrei1058.bedwars.api.upgrades",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/upgrades/TeamUpgrade.html"
+        }
+      ],
+      "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/upgrades/TeamUpgrade.html",
+      "type": "class"
+    },
+    {
+      "name": "TrapAction",
+      "package_name": "com.andrei1058.bedwars.api.upgrades",
+      "description": "Class from com.andrei1058.bedwars.api.upgrades",
+      "methods": [
+        {
+          "name": "getName",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "TrapAction",
+          "package_name": "com.andrei1058.bedwars.api.upgrades",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/upgrades/TrapAction.html"
+        },
+        {
+          "name": "onTrigger",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "player",
+              "type": "@NotNull @NotNull org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "Manage what happens on  enters .",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "TrapAction",
+          "package_name": "com.andrei1058.bedwars.api.upgrades",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/upgrades/TrapAction.html"
+        }
+      ],
+      "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/upgrades/TrapAction.html",
+      "type": "class"
+    },
+    {
+      "name": "UpgradeAction",
+      "package_name": "com.andrei1058.bedwars.api.upgrades",
+      "description": "Class from com.andrei1058.bedwars.api.upgrades",
+      "methods": [
+        {
+          "name": "onBuy",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "player",
+              "type": "@Nullable @Nullable org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "Apply action to team.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "UpgradeAction",
+          "package_name": "com.andrei1058.bedwars.api.upgrades",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/upgrades/UpgradeAction.html"
+        }
+      ],
+      "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/upgrades/UpgradeAction.html",
+      "type": "class"
+    },
+    {
+      "name": "ISetupSession",
+      "package_name": "com.andrei1058.bedwars.api.server",
+      "description": "Class from com.andrei1058.bedwars.api.server",
+      "methods": [
+        {
+          "name": "close",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Close setup session.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ISetupSession",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/ISetupSession.html"
+        },
+        {
+          "name": "getConfig",
+          "return_type": "ConfigManager",
+          "parameters": [],
+          "description": "Get arena config.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ISetupSession",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/ISetupSession.html"
+        },
+        {
+          "name": "getPlayer",
+          "return_type": "org.bukkit.entity.Player",
+          "parameters": [],
+          "description": "Get player doing the setup.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ISetupSession",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/ISetupSession.html"
+        },
+        {
+          "name": "getSetupType",
+          "return_type": "SetupType",
+          "parameters": [],
+          "description": "Get setup type.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ISetupSession",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/ISetupSession.html"
+        },
+        {
+          "name": "getWorldName",
+          "return_type": "String",
+          "parameters": [],
+          "description": "Get used world name.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ISetupSession",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/ISetupSession.html"
+        },
+        {
+          "name": "teleportPlayer",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Teleport player target world.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ISetupSession",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/ISetupSession.html"
+        }
+      ],
+      "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/ISetupSession.html",
+      "type": "class"
+    },
+    {
+      "name": "ServerType",
+      "package_name": "com.andrei1058.bedwars.api.server",
+      "description": "Class from com.andrei1058.bedwars.api.server",
+      "methods": [
+        {
+          "name": "BUNGEE",
+          "return_type": "ServerType",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ServerType",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/ServerType.html"
+        },
+        {
+          "name": "MULTIARENA",
+          "return_type": "ServerType",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ServerType",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/ServerType.html"
+        },
+        {
+          "name": "SHARED",
+          "return_type": "ServerType",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ServerType",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/ServerType.html"
+        },
+        {
+          "name": "values",
+          "return_type": "ServerType[]",
+          "parameters": [],
+          "description": "Returns an array containing the constants of this enum class, in\nthe order they are declared.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ServerType",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/ServerType.html"
+        },
+        {
+          "name": "valueOf",
+          "return_type": "ServerType",
+          "parameters": [],
+          "description": "Returns the enum constant of this class with the specified name.\nThe string must matchexactlyan identifier used to declare an\nenum constant in this class.  (Extraneous whitespace characters are \nnot permitted.)",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "ServerType",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/ServerType.html"
+        }
+      ],
+      "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/ServerType.html",
+      "type": "class"
+    },
+    {
+      "name": "VersionSupport",
+      "package_name": "com.andrei1058.bedwars.api.server",
+      "description": "Class from com.andrei1058.bedwars.api.server",
+      "methods": [
+        {
+          "name": "PLUGIN_TAG_GENERIC_KEY",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "PLUGIN_TAG_TIER_KEY",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "VersionSupport",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "plugin",
+              "type": "org.bukkit.plugin.Plugin",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "loadDefaultEffects",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "registerCommand",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "clasa",
+              "type": "org.bukkit.command.Command",
+              "description": null
+            }
+          ],
+          "description": "Register a new command as bukkit command",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "sendTitle",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            },
+            {
+              "name": "fadeIn",
+              "type": "int",
+              "description": null
+            },
+            {
+              "name": "stay",
+              "type": "int",
+              "description": null
+            },
+            {
+              "name": "fadeOut",
+              "type": "int",
+              "description": null
+            }
+          ],
+          "description": "Send title, subtitle. null for empty",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "playAction",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "Send action-bar message",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "isBukkitCommandRegistered",
+          "return_type": "boolean",
+          "parameters": [],
+          "description": "Check if bukkit command is registered",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "getItemInHand",
+          "return_type": "org.bukkit.inventory.ItemStack",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "Get in had item-stack",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "hideEntity",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "org.bukkit.entity.Entity",
+              "description": null
+            },
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "Hide an entity",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "isArmor",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "itemStack",
+              "type": "org.bukkit.inventory.ItemStack",
+              "description": null
+            }
+          ],
+          "description": "Check if item-stack is armor",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "isTool",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "itemStack",
+              "type": "org.bukkit.inventory.ItemStack",
+              "description": null
+            }
+          ],
+          "description": "Check if item-stack is a tool",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "isSword",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "itemStack",
+              "type": "org.bukkit.inventory.ItemStack",
+              "description": null
+            }
+          ],
+          "description": "Check if item-stack is sword",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "isAxe",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "itemStack",
+              "type": "org.bukkit.inventory.ItemStack",
+              "description": null
+            }
+          ],
+          "description": "Check if item-stack is axe",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "isBow",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "itemStack",
+              "type": "org.bukkit.inventory.ItemStack",
+              "description": null
+            }
+          ],
+          "description": "Check if item-stack is bow",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "isProjectile",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "itemStack",
+              "type": "org.bukkit.inventory.ItemStack",
+              "description": null
+            }
+          ],
+          "description": "Check if itemstack is Projectile",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "isInvisibilityPotion",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "itemStack",
+              "type": "org.bukkit.inventory.ItemStack",
+              "description": null
+            }
+          ],
+          "description": "Check if itemstack is Invisibility Potion",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "isGlass",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "type",
+              "type": "org.bukkit.Material",
+              "description": null
+            }
+          ],
+          "description": "Check if type is a Glass type material",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "registerEntities",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Register custom entities",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "spawnShop",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "loc",
+              "type": "org.bukkit.Location",
+              "description": null
+            },
+            {
+              "name": "players",
+              "type": "List<org.bukkit.entity.Player>",
+              "description": null
+            }
+          ],
+          "description": "Spawn shop NPC",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "getDamage",
+          "return_type": "double",
+          "parameters": [
+            {
+              "name": "i",
+              "type": "org.bukkit.inventory.ItemStack",
+              "description": null
+            }
+          ],
+          "description": "Get item-stack damage amount",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "spawnSilverfish",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "loc",
+              "type": "org.bukkit.Location",
+              "description": null
+            },
+            {
+              "name": "speed",
+              "type": "double",
+              "description": null
+            },
+            {
+              "name": "health",
+              "type": "double",
+              "description": null
+            },
+            {
+              "name": "despawn",
+              "type": "int",
+              "description": null
+            },
+            {
+              "name": "damage",
+              "type": "double",
+              "description": null
+            }
+          ],
+          "description": "Spawn silverfish for a team",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "spawnIronGolem",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "loc",
+              "type": "org.bukkit.Location",
+              "description": null
+            },
+            {
+              "name": "speed",
+              "type": "double",
+              "description": null
+            },
+            {
+              "name": "health",
+              "type": "double",
+              "description": null
+            },
+            {
+              "name": "despawn",
+              "type": "int",
+              "description": null
+            }
+          ],
+          "description": "Spawn a iron-golem for a team",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "isDespawnable",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "org.bukkit.entity.Entity",
+              "description": null
+            }
+          ],
+          "description": "Is despawnable entity",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "minusAmount",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            },
+            {
+              "name": "i",
+              "type": "org.bukkit.inventory.ItemStack",
+              "description": null
+            },
+            {
+              "name": "amount",
+              "type": "int",
+              "description": null
+            }
+          ],
+          "description": "Change item amount",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "setSource",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "tnt",
+              "type": "org.bukkit.entity.TNTPrimed",
+              "description": null
+            },
+            {
+              "name": "owner",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "Set tnt source",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "voidKill",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "Void damage with cause",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "hideArmor",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "victim",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            },
+            {
+              "name": "receiver",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "Hide player armor to a player",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "showArmor",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "victim",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            },
+            {
+              "name": "receiver",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "Show a player armor",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "spawnDragon",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "l",
+              "type": "org.bukkit.Location",
+              "description": null
+            }
+          ],
+          "description": "Spawn ender dragon",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "colorBed",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Color a bed 1.12+",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "registerTntWhitelist",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "endStoneBlast",
+              "type": "float",
+              "description": null
+            },
+            {
+              "name": "glassBlast",
+              "type": "float",
+              "description": null
+            }
+          ],
+          "description": "Modify block blast resistance.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "eggBridge",
+          "return_type": "org.bukkit.Effect",
+          "parameters": [],
+          "description": "Egg bridge particles",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "setEggBridgeEffect",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "setBlockTeamColor",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "block",
+              "type": "org.bukkit.block.Block",
+              "description": null
+            }
+          ],
+          "description": "Set block data\n For 1.13 support",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "setCollide",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            },
+            {
+              "name": "value",
+              "type": "boolean",
+              "description": null
+            }
+          ],
+          "description": "Disable collisions in 1.9+",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "addCustomData",
+          "return_type": "org.bukkit.inventory.ItemStack",
+          "parameters": [
+            {
+              "name": "i",
+              "type": "org.bukkit.inventory.ItemStack",
+              "description": null
+            }
+          ],
+          "description": "Add custom data to an ItemStack",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "setTag",
+          "return_type": "org.bukkit.inventory.ItemStack",
+          "parameters": [
+            {
+              "name": "itemStack",
+              "type": "org.bukkit.inventory.ItemStack",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "getTag",
+          "return_type": "String",
+          "parameters": [
+            {
+              "name": "itemStack",
+              "type": "org.bukkit.inventory.ItemStack",
+              "description": null
+            }
+          ],
+          "description": "Get a custom item tag.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "isCustomBedWarsItem",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "i",
+              "type": "org.bukkit.inventory.ItemStack",
+              "description": null
+            }
+          ],
+          "description": "Check if an item has a BedWars1058 NBTTag",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "getCustomData",
+          "return_type": "String",
+          "parameters": [
+            {
+              "name": "i",
+              "type": "org.bukkit.inventory.ItemStack",
+              "description": null
+            }
+          ],
+          "description": "Get the NBTTag from a BedWars1058 item",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "colourItem",
+          "return_type": "org.bukkit.inventory.ItemStack",
+          "parameters": [
+            {
+              "name": "itemStack",
+              "type": "org.bukkit.inventory.ItemStack",
+              "description": null
+            }
+          ],
+          "description": "Color an item if possible with the team's color",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "createItemStack",
+          "return_type": "org.bukkit.inventory.ItemStack",
+          "parameters": [
+            {
+              "name": "amount",
+              "type": "int",
+              "description": null
+            },
+            {
+              "name": "data",
+              "type": "short",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "isPlayerHead",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "data",
+              "type": "int",
+              "description": null
+            }
+          ],
+          "description": "Check if is a player head",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "materialFireball",
+          "return_type": "org.bukkit.Material",
+          "parameters": [],
+          "description": "Get fireball material",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "materialPlayerHead",
+          "return_type": "org.bukkit.Material",
+          "parameters": [],
+          "description": "Player head material",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "materialSnowball",
+          "return_type": "org.bukkit.Material",
+          "parameters": [],
+          "description": "Get snowball material",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "materialGoldenHelmet",
+          "return_type": "org.bukkit.Material",
+          "parameters": [],
+          "description": "Get gold  helmet material",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "materialGoldenChestPlate",
+          "return_type": "org.bukkit.Material",
+          "parameters": [],
+          "description": "Get gold chest plate",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "materialGoldenLeggings",
+          "return_type": "org.bukkit.Material",
+          "parameters": [],
+          "description": "Get gold leggings",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "materialNetheriteHelmet",
+          "return_type": "org.bukkit.Material",
+          "parameters": [],
+          "description": "Get netherite  helmet material",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "materialNetheriteChestPlate",
+          "return_type": "org.bukkit.Material",
+          "parameters": [],
+          "description": "Get netherite chest plate",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "materialNetheriteLeggings",
+          "return_type": "org.bukkit.Material",
+          "parameters": [],
+          "description": "Get netherite leggings",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "materialElytra",
+          "return_type": "org.bukkit.Material",
+          "parameters": [],
+          "description": "Get elytra - supports: 1.12.2+",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "materialCake",
+          "return_type": "org.bukkit.Material",
+          "parameters": [],
+          "description": "Cake material",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "materialCraftingTable",
+          "return_type": "org.bukkit.Material",
+          "parameters": [],
+          "description": "Crafting table material",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "materialEnchantingTable",
+          "return_type": "org.bukkit.Material",
+          "parameters": [],
+          "description": "Enchanting table material",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "isBed",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "material",
+              "type": "org.bukkit.Material",
+              "description": null
+            }
+          ],
+          "description": "Check if bed",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "itemStackDataCompare",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "name": "i",
+              "type": "org.bukkit.inventory.ItemStack",
+              "description": null
+            },
+            {
+              "name": "data",
+              "type": "short",
+              "description": null
+            }
+          ],
+          "description": "Item Data compare\n This will always return true on versions major or equal 1.13",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "setJoinSignBackgroundBlockData",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "b",
+              "type": "org.bukkit.block.BlockState",
+              "description": null
+            },
+            {
+              "name": "data",
+              "type": "byte",
+              "description": null
+            }
+          ],
+          "description": "Set block data\n For versions before 1.13",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "setJoinSignBackground",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "b",
+              "type": "org.bukkit.block.BlockState",
+              "description": null
+            },
+            {
+              "name": "material",
+              "type": "org.bukkit.Material",
+              "description": null
+            }
+          ],
+          "description": "Change the block behind the join sign.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "woolMaterial",
+          "return_type": "org.bukkit.Material",
+          "parameters": [],
+          "description": "Wool material",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "getShopUpgradeIdentifier",
+          "return_type": "String",
+          "parameters": [
+            {
+              "name": "itemStack",
+              "type": "org.bukkit.inventory.ItemStack",
+              "description": null
+            }
+          ],
+          "description": "Get an ItemStack identifier\n will return null text if it does not have an identifier",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "setShopUpgradeIdentifier",
+          "return_type": "org.bukkit.inventory.ItemStack",
+          "parameters": [
+            {
+              "name": "itemStack",
+              "type": "org.bukkit.inventory.ItemStack",
+              "description": null
+            }
+          ],
+          "description": "Set an upgrade identifier",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "getPlayerHead",
+          "return_type": "org.bukkit.inventory.ItemStack",
+          "parameters": [
+            {
+              "name": "player",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            },
+            {
+              "name": "copyTagFrom",
+              "type": "@Nullable @Nullable org.bukkit.inventory.ItemStack",
+              "description": null
+            }
+          ],
+          "description": "Get player head with skin.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "sendPlayerSpawnPackets",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "player",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "This will send the player spawn packet after a player re-spawn.Show the target player to players and spectators in the arena.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "getInventoryName",
+          "return_type": "String",
+          "parameters": [
+            {
+              "name": "e",
+              "type": "org.bukkit.event.inventory.InventoryEvent",
+              "description": null
+            }
+          ],
+          "description": "Get inventory name.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "setUnbreakable",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "itemMeta",
+              "type": "org.bukkit.inventory.meta.ItemMeta",
+              "description": null
+            }
+          ],
+          "description": "Make item unbreakable.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "getDespawnablesList",
+          "return_type": "ConcurrentHashMap<UUID,Despawnable>",
+          "parameters": [],
+          "description": "Get list of entities that are going to despawn based on a timer.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "getName",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "getVersion",
+          "return_type": "int",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "getPlugin",
+          "return_type": "org.bukkit.plugin.Plugin",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "registerVersionListeners",
+          "return_type": "void",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "getMainLevel",
+          "return_type": "String",
+          "parameters": [],
+          "description": "Get main level name.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "getCompressedAngle",
+          "return_type": "byte",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "float",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "spigotShowPlayer",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "victim",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            },
+            {
+              "name": "receiver",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "spigotHidePlayer",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "victim",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            },
+            {
+              "name": "receiver",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "setFireballDirection",
+          "return_type": "org.bukkit.entity.Fireball",
+          "parameters": [
+            {
+              "name": "fireball",
+              "type": "org.bukkit.entity.Fireball",
+              "description": null
+            },
+            {
+              "name": "vector",
+              "type": "org.bukkit.util.Vector",
+              "description": null
+            }
+          ],
+          "description": "Make fireball go straight.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "playRedStoneDot",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "player",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "clearArrowsFromPlayerBody",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "player",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "placeTowerBlocks",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "b",
+              "type": "org.bukkit.block.Block",
+              "description": null
+            },
+            {
+              "name": "x",
+              "type": "int",
+              "description": null
+            },
+            {
+              "name": "y",
+              "type": "int",
+              "description": null
+            },
+            {
+              "name": "z",
+              "type": "int",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "placeLadder",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "b",
+              "type": "org.bukkit.block.Block",
+              "description": null
+            },
+            {
+              "name": "x",
+              "type": "int",
+              "description": null
+            },
+            {
+              "name": "y",
+              "type": "int",
+              "description": null
+            },
+            {
+              "name": "z",
+              "type": "int",
+              "description": null
+            },
+            {
+              "name": "ladderdata",
+              "type": "int",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        },
+        {
+          "name": "playVillagerEffect",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "player",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            },
+            {
+              "name": "location",
+              "type": "org.bukkit.Location",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "VersionSupport",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html"
+        }
+      ],
+      "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/VersionSupport.html",
+      "type": "class"
+    },
+    {
+      "name": "SetupType",
+      "package_name": "com.andrei1058.bedwars.api.server",
+      "description": "Class from com.andrei1058.bedwars.api.server",
+      "methods": [
+        {
+          "name": "ASSISTED",
+          "return_type": "SetupType",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "SetupType",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/SetupType.html"
+        },
+        {
+          "name": "ADVANCED",
+          "return_type": "SetupType",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "SetupType",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/SetupType.html"
+        },
+        {
+          "name": "values",
+          "return_type": "SetupType[]",
+          "parameters": [],
+          "description": "Returns an array containing the constants of this enum class, in\nthe order they are declared.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "SetupType",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/SetupType.html"
+        },
+        {
+          "name": "valueOf",
+          "return_type": "SetupType",
+          "parameters": [],
+          "description": "Returns the enum constant of this class with the specified name.\nThe string must matchexactlyan identifier used to declare an\nenum constant in this class.  (Extraneous whitespace characters are \nnot permitted.)",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "SetupType",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/SetupType.html"
+        }
+      ],
+      "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/SetupType.html",
+      "type": "class"
+    },
+    {
+      "name": "RestoreAdapter",
+      "package_name": "com.andrei1058.bedwars.api.server",
+      "description": "Class from com.andrei1058.bedwars.api.server",
+      "methods": [
+        {
+          "name": "RestoreAdapter",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "owner",
+              "type": "org.bukkit.plugin.Plugin",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "RestoreAdapter",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/RestoreAdapter.html"
+        },
+        {
+          "name": "getOwner",
+          "return_type": "org.bukkit.plugin.Plugin",
+          "parameters": [],
+          "description": "Get adapter owner.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "RestoreAdapter",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/RestoreAdapter.html"
+        },
+        {
+          "name": "onEnable",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Load the world.\n Arenas will be initialized automatically based on WorldLoadEvent.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "RestoreAdapter",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/RestoreAdapter.html"
+        },
+        {
+          "name": "onRestart",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Restore the world.\n call new Arena when it's done.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "RestoreAdapter",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/RestoreAdapter.html"
+        },
+        {
+          "name": "onDisable",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Unload the world.\n This is usually used for /bw unloadArena name",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "RestoreAdapter",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/RestoreAdapter.html"
+        },
+        {
+          "name": "onSetupSessionStart",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Load the world for setting it up.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "RestoreAdapter",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/RestoreAdapter.html"
+        },
+        {
+          "name": "onSetupSessionClose",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Unload the world.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "RestoreAdapter",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/RestoreAdapter.html"
+        },
+        {
+          "name": "onLobbyRemoval",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "@NotNullIArenaa",
+              "type": "@NotNull",
+              "description": null
+            }
+          ],
+          "description": "Remove lobby blocks.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "RestoreAdapter",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/RestoreAdapter.html"
+        },
+        {
+          "name": "isWorld",
+          "return_type": "boolean",
+          "parameters": [],
+          "description": "Check if given world exists.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "RestoreAdapter",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/RestoreAdapter.html"
+        },
+        {
+          "name": "deleteWorld",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Delete a world.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "RestoreAdapter",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/RestoreAdapter.html"
+        },
+        {
+          "name": "cloneArena",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Clone an arena world.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "RestoreAdapter",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/RestoreAdapter.html"
+        },
+        {
+          "name": "getWorldsList",
+          "return_type": "List<String>",
+          "parameters": [],
+          "description": "Get world container.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "RestoreAdapter",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/RestoreAdapter.html"
+        },
+        {
+          "name": "convertWorlds",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Convert worlds if it is necessary before loading them.\n Let them load on BedWars1058 main Thread, so they will be converted before getting loaded.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "RestoreAdapter",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/RestoreAdapter.html"
+        },
+        {
+          "name": "getDisplayName",
+          "return_type": "String",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "RestoreAdapter",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/RestoreAdapter.html"
+        },
+        {
+          "name": "foreachBlockInRegion",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "corner1",
+              "type": "@Nullable @Nullable org.bukkit.Location",
+              "description": null
+            },
+            {
+              "name": "corner2",
+              "type": "@Nullable @Nullable org.bukkit.Location",
+              "description": null
+            },
+            {
+              "name": "consumer",
+              "type": "@NotNull @NotNullConsumer<org.bukkit.block.Block>",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "RestoreAdapter",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/RestoreAdapter.html"
+        },
+        {
+          "name": "clearItems",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "world",
+              "type": "@NotNull @NotNull org.bukkit.World",
+              "description": null
+            }
+          ],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "RestoreAdapter",
+          "package_name": "com.andrei1058.bedwars.api.server",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/RestoreAdapter.html"
+        }
+      ],
+      "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/server/RestoreAdapter.html",
+      "type": "class"
+    },
+    {
+      "name": "GeneratorType",
+      "package_name": "com.andrei1058.bedwars.api.arena.generator",
+      "description": "Class from com.andrei1058.bedwars.api.arena.generator",
+      "methods": [
+        {
+          "name": "IRON",
+          "return_type": "GeneratorType",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "GeneratorType",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/GeneratorType.html"
+        },
+        {
+          "name": "GOLD",
+          "return_type": "GeneratorType",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "GeneratorType",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/GeneratorType.html"
+        },
+        {
+          "name": "EMERALD",
+          "return_type": "GeneratorType",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "GeneratorType",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/GeneratorType.html"
+        },
+        {
+          "name": "DIAMOND",
+          "return_type": "GeneratorType",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "GeneratorType",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/GeneratorType.html"
+        },
+        {
+          "name": "CUSTOM",
+          "return_type": "GeneratorType",
+          "parameters": [],
+          "description": "",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "GeneratorType",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/GeneratorType.html"
+        },
+        {
+          "name": "values",
+          "return_type": "GeneratorType[]",
+          "parameters": [],
+          "description": "Returns an array containing the constants of this enum class, in\nthe order they are declared.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "GeneratorType",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/GeneratorType.html"
+        },
+        {
+          "name": "valueOf",
+          "return_type": "GeneratorType",
+          "parameters": [],
+          "description": "Returns the enum constant of this class with the specified name.\nThe string must matchexactlyan identifier used to declare an\nenum constant in this class.  (Extraneous whitespace characters are \nnot permitted.)",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "GeneratorType",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/GeneratorType.html"
+        }
+      ],
+      "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/GeneratorType.html",
+      "type": "class"
+    },
+    {
+      "name": "IGenHolo",
+      "package_name": "com.andrei1058.bedwars.api.arena.generator",
+      "description": "Class from com.andrei1058.bedwars.api.arena.generator",
+      "methods": [
+        {
+          "name": "destroy",
+          "return_type": "void",
+          "parameters": [],
+          "description": "This must be called when disabling the generatorIGenerator.disable()",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenHolo",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenHolo.html"
+        },
+        {
+          "name": "getIso",
+          "return_type": "String",
+          "parameters": [],
+          "description": "Get language iso associated with this hologram.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenHolo",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenHolo.html"
+        },
+        {
+          "name": "setTierName",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Set tier hologram display text.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenHolo",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenHolo.html"
+        },
+        {
+          "name": "setTimerName",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Set timer hologram display text.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenHolo",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenHolo.html"
+        },
+        {
+          "name": "updateForAll",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Hide hologram for all players using a different language than this hologram.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenHolo",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenHolo.html"
+        },
+        {
+          "name": "updateForPlayer",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "Hide hologram for target player if is using a different language.\n Add your generator to an arena and it will automatically call this when required.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenHolo",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenHolo.html"
+        }
+      ],
+      "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenHolo.html",
+      "type": "class"
+    },
+    {
+      "name": "IGenerator",
+      "package_name": "com.andrei1058.bedwars.api.arena.generator",
+      "description": "Class from com.andrei1058.bedwars.api.arena.generator",
+      "methods": [
+        {
+          "name": "destroyData",
+          "return_type": "void",
+          "parameters": [],
+          "description": "This only must be called by the arena instance when it restarts.\n Do never call it unless you have a custom arena.\n Manage your data destroy.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "disable",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Disable a generator and destroy its data.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "dropItem",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "location",
+              "type": "org.bukkit.Location",
+              "description": null
+            }
+          ],
+          "description": "This will drop the item at a given location.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "enableRotation",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Enable generator rotation.\n Make sure it has a helmet set.\n DIAMOND and EMERALD generator types will get\n the rotation activated when the arena starts.\n If you want to have a different rotating type you should call this manually atGameStateChangeEvent",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "getAmount",
+          "return_type": "int",
+          "parameters": [],
+          "description": "Get the amount of items that are dropped once.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "getArena",
+          "return_type": "IArena",
+          "parameters": [],
+          "description": "Get the arena assigned to this generator.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "getBwt",
+          "return_type": "ITeam",
+          "parameters": [],
+          "description": "Get the team assigned to this generator.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "getDelay",
+          "return_type": "int",
+          "parameters": [],
+          "description": "Get spawn rate delay.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "getHologramHolder",
+          "return_type": "org.bukkit.entity.ArmorStand",
+          "parameters": [],
+          "description": "Get generator hologram holder (armor stand) containing the rotating item.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "getLanguageHolograms",
+          "return_type": "HashMap<String,IGenHolo>",
+          "parameters": [],
+          "description": "Get holograms associated to this generator.\n Language iso, Hologram instance.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "getLocation",
+          "return_type": "org.bukkit.Location",
+          "parameters": [],
+          "description": "Get the generator location.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "getNextSpawn",
+          "return_type": "int",
+          "parameters": [],
+          "description": "Get seconds before next item spawn.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "getOre",
+          "return_type": "org.bukkit.inventory.ItemStack",
+          "parameters": [],
+          "description": "Get generator ore.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "getSpawnLimit",
+          "return_type": "int",
+          "parameters": [],
+          "description": "Get the spawn limit of the generators.\n If there is this amount of items dropped near the generator\n it will stop spawning new items.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "getType",
+          "return_type": "GeneratorType",
+          "parameters": [],
+          "description": "Get generator type.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "isStack",
+          "return_type": "boolean",
+          "parameters": [],
+          "description": "Check if the dropped items can be stacked.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "rotate",
+          "return_type": "void",
+          "parameters": [],
+          "description": "This method is called every tick to manage the block rotation.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "setAmount",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "amount",
+              "type": "int",
+              "description": null
+            }
+          ],
+          "description": "Set how many items should the generator spawn at once.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "setDelay",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "delay",
+              "type": "int",
+              "description": null
+            }
+          ],
+          "description": "Change item spawn delay. In seconds.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "setNextSpawn",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "nextSpawn",
+              "type": "int",
+              "description": null
+            }
+          ],
+          "description": "Set the remaining time till the next item spawn.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "setOre",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "ore",
+              "type": "org.bukkit.inventory.ItemStack",
+              "description": null
+            }
+          ],
+          "description": "Change the item that this generator will spawn.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "setSpawnLimit",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "value",
+              "type": "int",
+              "description": null
+            }
+          ],
+          "description": "This is the limit when the generator will stop spawning new items until they are collected.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "setStack",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "stack",
+              "type": "boolean",
+              "description": null
+            }
+          ],
+          "description": "Should the dropped items be stacked?",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "setType",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Set generator type.\n This may break things.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "spawn",
+          "return_type": "void",
+          "parameters": [],
+          "description": "This will attempt to spawn the items every second.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "updateHolograms",
+          "return_type": "void",
+          "parameters": [
+            {
+              "name": "p",
+              "type": "org.bukkit.entity.Player",
+              "description": null
+            }
+          ],
+          "description": "This will hide generator holograms with a different iso.",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        },
+        {
+          "name": "upgrade",
+          "return_type": "void",
+          "parameters": [],
+          "description": "Manage what to do when the generator upgrade is called fromIArena.updateNextEvent()",
+          "modifiers": [],
+          "exceptions": [],
+          "class_name": "IGenerator",
+          "package_name": "com.andrei1058.bedwars.api.arena.generator",
+          "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html"
+        }
+      ],
+      "url": "https://javadocs.andrei1058.dev/BedWars1058/com/andrei1058/bedwars/api/arena/generator/IGenerator.html",
+      "type": "class"
+    }
+  ]
+}
